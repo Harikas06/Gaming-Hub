@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html,
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+}
+.main{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(122, 87, 154);
+}
+.nav{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  background-color:rgb(85, 38, 130);
+
+}
+.nav-part1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav img{
+  height: 80px;
+  width: auto;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.nav-part1 ul{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  list-style: none;
+}
+.nav-part1 ul li{
+  margin-right: 40px;
+  font-size: 16px;
+  font-weight: 100px;
+  cursor: pointer;
+}
+.nav-part2 i{
+  margin-right: 50px;
+  font-size: large;
+  cursor: pointer;
+  
+
+}
+.content{
+  height: calc(100%-110px);
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.leftcontent{
+  height: 100%;
+  padding: 80px 100px;
+  width: 50%;
+
+}
+.leftcontent h5{
+  font-size: 20px;
+  text-transform: capitalize;
+  color: rgb(23, 2, 45);
+  margin-bottom: 10px;
+
+  
+}
+.leftcontent h1{
+  font-size: 55px;
+  text-transform: uppercase;
+  color: rgb(51, 6, 94);
+  margin-bottom: 25px;
+}
+.leftcontent p{
+  
+  font-weight: 100;
+  color: rgb(170, 130, 161);
+  width: 80%;
+  margin-bottom: 30px;
+
+}
+button{
+  background-color: rgb(30, 0, 34);
+  color: rgb(216, 154, 187);
+  font-size: 15px;
+  padding: 12px 40px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  border-top-left-radius: 0;
+
+}
+.contentright {
+  height: 100%;
+  width: 50%;
+  padding: 50px; 
+  
+  white-space: nowrap;
+  overflow-x :auto;
+}
+.contentright::-webkit-scrollbar{
+  display: none;
+
+}
+.game1 {
+  height: 350px;
+  width: 270px;
+  background-color: rgb(59, 26, 48);
+  position: relative;
+  box-shadow: 0 5px 10px rgba(51, 0, 17, 0.5); 
+  border-radius: 10px;
+  display: inline-block; 
+  margin: 8px; 
+  color: rgb(214, 182, 208);
+
+}
+
+
+.game1 img{
+  height: 75%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  bottom: 22%;
+  
+}
+.game1 h4{
+  font-size: 15px;
+  font-style: oblique;
+  text-transform: capitalize;
+  position:absolute;
+  bottom: 16%;
+
+}
+.size{
+  position: absolute;
+  bottom: 10%;
+  font-weight: 500;
+  
+}
